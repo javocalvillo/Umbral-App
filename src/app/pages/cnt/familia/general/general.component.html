@@ -1,0 +1,125 @@
+<div class="card mt-4 tar cuadroGeneral">
+  <p class="card-header ColorBarra header ">
+    <i class="fas fa-list" style="color: aliceblue;"></i>
+    <span class="text-light ml-2">
+      <b class="font">Familias</b>
+    </span>
+  </p>
+  <div class="card-body">
+
+    <div class="alert alert-info" role="alert">
+      <label class="font">(*) si el campo es editable, el dato es obligatorio.</label>
+    </div>
+
+    <div class="card-body">
+      <form>
+        <div class="row">
+          <div class="col-md-6">
+
+            <div class="form-group">
+              <b class="font">Rut Seleccionado (*):</b>
+              <input type="number" class="form-control" id="rutSeleccionado" placeholder="">
+            </div>
+
+            <div class="form-group">
+              <b class="font">Código Asignación Directa (*):</b>
+              <input type="number" class="form-control" id="codigoAsignacion" placeholder="">
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+
+            <div class="tamaño2" >
+              <i class="fas fa-user-plus"></i>
+              <i class="fas fa-search icono ml-2"></i>
+            </div>
+
+
+            <div class="tamaño4">
+              <i class="fas fa-user-plus"></i>
+            </div>
+          </div>
+
+        </div>
+      </form>
+    </div>
+
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active"><b>Totales</b></a>
+      </li>
+    </ul>
+
+
+    <ul class="nav ColorBarra" >
+      <li class="nav-item">
+        <a class="nav-link active" style="color:white"><b>Inscritos: 0</b></a>
+      </li>
+      <li class="nav-item ml-3">
+        <a class="nav-link ml-3"  style="color:white"><b>Pre-Inscritos: 0</b></a>
+      </li>
+      <li class="nav-item ml-3">
+        <a class="nav-link ml-3"  style="color:white"><b>No-Inscritos: 0</b></a>
+      </li>
+      <li class="nav-item ml-3">
+        <a class="nav-link ml-3"  style="color:white"><b>Hábiles: 0</b></a>
+      </li>
+      <li class="nav-item ml-3">
+        <a class="nav-link ml-3"  style="color:white"><b>Beneficiados: 117</b></a>
+      </li>
+      <li class="nav-item ml-3">
+        <a class="nav-link ml-3"  style="color:white"><b>Con Observaciones: 0</b></a>
+      </li>
+      <li class="nav-item ml-3">
+        <a class="nav-link ml-3"  style="color:white"><b>Eliminados: 11</b></a>
+      </li>
+    </ul>
+
+    <table class="table table-bordered text-center  table-sm">
+      <thead class="ColorBarra">
+        <tr>
+          <th scope="col" class="fontTable">N°</th>
+          <th scope="col" class="fontTable">Rut</th>
+          <th scope="col" class="fontTable">Nombre Completo</th>
+          <th scope="col" class="fontTable">Estado</th>
+          <th scope="col" class="fontTable">Focalización</th>
+          <th scope="col" class="fontTable">Acción</th>
+        </tr>
+      </thead>
+      <tbody> 
+        <tr>
+          <th scope="row">1</th>
+          <td>6315507-1</td>
+          <td>OSCAR CELERINO AEDO PARRA</td>
+          <td>Beneficiado</td>
+          <td>40%</td>
+          <td>
+              <button type="button" class="btn btn-primary ColorBarra"  routerLink="/familia1">
+                  <i class="fas fa-search"></i>
+              </button>
+            <!--<a routerLink="/familia1" routerLinkActive="router-link-active" class="icon">
+              <i class="fas fa-search"></i>
+            </a>-->
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>6535222-2</td>
+          <td>MARÍA ISABEL AEDO REYES</td>
+          <td>Beneficiado</td>
+          <td>40%</td>
+          <td>
+            <button type="button" class="btn btn-primary ColorBarra"  routerLink="/familia1">
+                <i class="fas fa-search"></i>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button type="button" class="btn btn-primary ColorBarra" style="margin-left: 84%;">
+            Exportar Listado Familias
+        </button>
+  </div>
+</div>
+

@@ -1,0 +1,71 @@
+<div class="card cuadroGeneral mb-4">
+
+        <div class="card" style="border:none;">
+                <div class="card-header ColorBarra"> 
+                  <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link text-light" routerLink="/familia1">Datos Interesado y FPS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" routerLink="/propiedades">Propiedades</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active"  routerLink="/postulacion">Postulacíon y Ahorro</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="card tar" style="border:none;">
+                  <div class="custom-control custom-switch mt-3 d-flex justify-content-end">
+                      <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                      <label class="custom-control-label" for="customSwitch1"></label>
+                  </div>
+
+                  
+                <div class="form-check mt-4" style="margin-left: 70%;">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label font" for="defaultCheck1">
+                      Aplicar V° B° para sección de datos interesado
+                    </label>
+                </div> 
+                </div>
+
+
+				<app-tipo-vivienda></app-tipo-vivienda> 
+
+				<app-ahorro></app-ahorro> 
+
+				<app-exencion-resolusion></app-exencion-resolusion>
+
+				<app-informacion-postulacion></app-informacion-postulacion>
+
+        <app-unipersonalidad></app-unipersonalidad>
+
+        <app-tipo-postulacion></app-tipo-postulacion>
+
+        <app-observaciones class="mb-4"></app-observaciones>
+
+                        
+        </div>
+
+        <div class="conatiner tar mt-4 mb-2" align="center">
+          <div class="row">
+            <div class="col-md-4">
+              <button type="button" class="btn btn-primary bt ColorBarra">
+                  Evaluar Familia
+              </button> 
+            </div>
+            <div class="col-md-4">
+              <button type="button" class="btn btn-secondary bt">
+                  Corregir Inscripción
+              </button> 
+            </div>
+            <div class="col-md-4"> 
+              <button type="button" class="btn btn-danger bt" routerLink="/familia">
+                  Volver
+              </button> 
+            </div>
+          </div>
+        </div>
+</div>
+

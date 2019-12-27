@@ -1,0 +1,61 @@
+
+.inputMap{
+    width: 70%;
+}
+
+.contemt{
+    padding-left: 130px;
+}
+
+.cuadro{
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+} 
+  
+.uf{
+    width: 10% 
+}
+
+.cuadroGeneral{
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+  border-radius: 6px;
+}  
+
+.inputMap{
+    width: 70%;
+}
+
+.contemt{
+    padding-left: 130px;
+}
+
+.cuadro{
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+} 
+  
+.uf{
+    width: 10% 
+}
+
+.cuadroGeneral{
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+  border-radius: 6px;
+}
+
+.ColorBarra{
+  background-color: #3f79b7; 
+
+}
+
+
+
+#map{
+	width: 100%; 
+	height: 300px
+}
+
+
+

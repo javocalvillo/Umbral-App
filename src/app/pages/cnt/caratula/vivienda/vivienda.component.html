@@ -1,0 +1,105 @@
+<div class="card mt-4 tar cuadroGeneral">
+    <p class="card-header ColorBarra header ">
+      <i class="fas fa-list" style="color: aliceblue;"></i>
+      <span class="text-light ml-2">
+        <b class="font">Vivienda</b>
+      </span>
+    </p>
+    <div class="card-body">
+
+    	<div class="alert alert-info" role="alert">
+		  <label class="font">- Para la presente sección, los datos obligatorios que no hayan sido ingresados serán resaltados con un asterisco (*) a la derecha del campo.</label>
+		  <br>
+		  <label class="font">- En algunos casos puede aparecer un doble asterisco (**) lo que indica que se ha ingresado información en un formato incorrecto.</label>
+		  <br>
+		  <label class="font">- Para poder apreciar el detalle del formato, se debe posicionar el mouse sobre el (**) donde aparecerá un mensaje indicando el detalle del error.</label>
+		</div>
+
+
+        <form class="mt-4"> 
+
+        	<div class="form-group">
+              <b class="font">Densidad neta proyecto [ viviendas/hectárea ] (*):</b>
+              <input type="text" class="form-control" id="viviendas" placeholder="" style="width: 25%;">
+			</div>
+
+			<div class="table-responsive">
+				<table class="table table-bordered table-sm text-center">
+					<thead class="ColorBarra">
+						<tr>
+							<th class="fontTable" rowspan="2"><label class="mb-4">N° etapa</label></th>
+							<th class="fontTable"rowspan="2"><label class="mb-4">N° vivienda (*)</label></th>
+							<th class="fontTable" rowspan="2"><label class="mb-4">Área verde (m2</label></th>
+							<th class="fontTable" rowspan="2"><label class="mb-4">Sala multiuso (m2)</label></th>
+							<th class="fontTable" rowspan="2"><label class="mb-4">Equipamiento (m2)</label></th>
+							<th class="fontTable" rowspan="2"><label class="mb-4">PAS</label></th>
+							<th class="fontTable" colspan="2">N° de personas</th>
+							<th class="fontTable" rowspan="2"><label class="mb-4">Acciones</label></th>
+						</tr>
+						<tr>
+							<th class="fontTable"><label class="mb-4">Asociadas</label></th>
+							<th class="fontTable"><label class="mb-4">Sin Tipo de vivienda</label></th>
+						</tr>
+					</thead>
+					<tbody>
+
+						<tr>
+							<td>
+								<input type="text" class="form-control text-center" id="viviendas" placeholder="1" readonly>
+							</td>
+							<td> 
+								<input type="text" class="form-control text-center" id="viviendas" placeholder="117" readonly>
+							</td>
+							<td>
+								<input type="text" class="form-control text-center" id="viviendas" placeholder="3068" readonly>
+							</td>
+							<td>
+								<input type="text" class="form-control text-center" id="viviendas" placeholder="82,50" readonly>
+							</td>
+							<td>
+								<input type="text" class="form-control text-center" id="viviendas" placeholder="82,50" readonly>
+							</td>
+							<td>
+								<input class="form-check-input mt-3" type="checkbox" value="" id="defaultCheck1" disabled style="margin-left: -1%;">
+							</td>
+							<td>
+								<input type="text" class="form-control text-center" id="viviendas" placeholder="117" readonly>
+							</td>
+							<td>
+								<input type="text" class="form-control text-center" id="viviendas" placeholder="1" readonly>
+							</td>
+							<td>
+
+								<button type="button" class="btn btn-primary ColorBarra"  routerLink="/detalle-vivienda">
+									<i class="fas fa-search"></i>
+								</button>
+								
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>Total</td>
+							<td>317</td>
+							<td>3068</td>
+							<td>82,50</td>
+							<td>865,24</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+							  <button type="button" class="btn btn-primary ColorBarra"  routerLink="/familia">
+								<i class="fas fa-search"></i>
+							  </button>
+							</td>
+						</tr>
+
+
+					</tbody>
+				</table>
+			</div>
+       </form>
+
+    </div>
+  </div>
+ 

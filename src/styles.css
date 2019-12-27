@@ -1,0 +1,101 @@
+.inputLargo{
+  width: 80%;
+}
+
+.checkTable{
+  margin-left: 5%; 
+  margin-top: 3%; 
+} 
+
+.headerTable{
+  margin-bottom: 21px;
+}
+
+.icono{
+  margin-left: -5%; 
+  margin-top: 15%; 
+}
+
+.fontTable{
+  font-size: 14px;
+  color: #f8f9fa;
+  }
+
+.cardColor{
+  background-color: #f8f9fa;
+}
+
+.headerMenu{
+  margin-top:10px;
+}
+
+
+.ColorBarra{
+  background-color: #3f79b7; 
+}
+
+.font{
+  font-size: 15px;
+}
+
+.inp{
+ width: 55%; 
+ display:block;
+ margin:auto;
+}
+
+.aling{
+ display:block;
+ margin:auto;
+ cursor: pointer;
+}
+
+.tar{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tarconten{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor{
+  width:90px;
+  height:240px;
+  position:fixed;
+  right:0px;
+  bottom:0px;
+}
+
+.puntero{
+  cursor: pointer;
+}
+
+.bt{
+  display: block; width: 100%;
+}
+
+.header{
+  height: 45px;
+}
+
+.chek{
+  width:20px;
+  height:20px;
+}
+
+.labeltxt{
+  padding:3px;
+}
+
+.tamañoAgrupar{
+  margin-left: 80%;
+}
+@media only screen and (max-width: 1679px) {
+  .tamañoAgrupar {
+    margin-left: 72%;
+  }
+}

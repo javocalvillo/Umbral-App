@@ -1,0 +1,70 @@
+
+	<div class="card mt-5 tar cuadroGeneral">
+		<p class="card-header header ColorBarra">
+			<i class="fas fa-list" style="color: aliceblue;"></i>
+			<b class="font text-light ml-2">Tipo Proyecto</b>
+		</p>
+		<div class="card-body text-center">
+
+			<div class="row">
+				<div class="col-md-6">
+						<div class="form-check">
+							<input class="form-check-input chek" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" routerLink="/cnt" >
+							<label class="form-check-label  ml-1 labeltxt">
+								Construcción En Nuevos Terrenos
+							</label>
+						</div>
+				</div>
+				
+				<div class="col-md-6">
+						<div class="form-check">
+							<input class="form-check-input chek" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+							<label class="form-check-label  ml-1 labeltxt">
+								Mega Proyecto
+							</label>
+						</div>
+				</div>
+			</div>
+
+	  	</div>
+	</div>
+
+	<!--<div class="card mt-4 tar border-primary"> 
+	  <p class="card-header header bg-primary">
+		  <i class="fas fa-list" style="color: aliceblue;"></i>
+		  <span class="text-light ml-2">
+		  	<b class="font">Tipo Proyecto</b>
+		  </span>
+	  </p>
+	  <div class="card-body text-center">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="card cuadro puntero" (click)="ver=!ver">
+						<div class="card-body">
+							<b class="card-title font text-secomdary">Construcción En Nuevos Terrenos</b>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="card cuadro puntero">
+						<div class="card-body">
+							<b class="card-title font text-secomdary">Mega Proyectos</b>
+						</div>
+					</div> 
+				</div>
+			</div>
+		</div>
+	</div>-->
+
+	<h5>
+		<span class="badge ColorBarra tar mt-4 d-flex justify-content-center cuadroGeneral text-light">
+		Proyecto	
+		</span>
+	</h5>
+
+	<h5 *ngIf="!ver">
+		<span class="badge ColorBarra tar d-flex justify-content-center mb-5 cuadroGeneral text-light">
+			Asistencia Técnica
+		</span>
+	</h5>
+
